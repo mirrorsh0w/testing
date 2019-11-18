@@ -1,0 +1,418 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+     <title>Prem</title>
+<!--
+Hydro Template
+http://www.templatemo.com/tm-509-hydro
+-->
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="author" content="">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+     <script src="https://kit.fontawesome.com/505273b455.js" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+     <link rel="stylesheet" href="{% static 'css/bootstrap-grid.min.css' %}">
+     <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+     <link rel="stylesheet" href="{% static 'fonts/font-awesome.min.css' %}">
+
+     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+     <link rel="stylesheet" href="{% static 'css/templatemo-style.css' %}">
+     <style>
+     .fit-image{
+
+                object-fit: cover;
+           /* only if you want fixed height */
+                max-width: 100%;
+                max-height: auto;
+               }
+               .footer{
+  background: #1df091;
+  color#ffffff;
+
+  .links{
+    ul {list-style-type: none;}
+    li a{
+      color: #ffffff;
+      transition: color .2s;
+      &:hover{
+        text-decoration:none;
+        color:#ffffff;
+        }
+    }
+  }
+  .about-company{
+    i{font-size: 30px;}
+    a{
+      color:#ffffff;
+      transition: color .2s;
+      &:hover{color:#ffffff}
+    }
+  }
+  .location{
+    i{font-size: 18px;}
+  }
+  .copyright p{border-top:1px solid rgba(225,255,255,.1);}
+}
+
+
+     </style>
+</head>
+<body>
+
+     <!-- PRE LOADER -->
+     <section class="preloader">
+          <div class="spinner">
+               <span class="spinner-rotate"></span>
+          </div>
+     </section>
+
+
+     <!-- MENU -->
+     <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
+          <div class="container">
+
+               <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                    </button>
+
+                    <!-- lOGO TEXT HERE -->
+                    <a href="#home" class="navbar-brand">ヌスモホ</a>
+               </div>
+
+               <!-- MENU LINKS -->
+               <div class="collapse navbar-collapse">
+                 <ul class="nav navbar-nav navbar-nav-first">
+                         <li><a href="#home" class="smoothScroll">Home</a></li>
+                         <li><a href="#about" class="smoothScroll">About</a></li>
+                         <li><a href="#blog" class="smoothScroll">Blog</a></li>
+                         <li><a href="#work" class="smoothScroll">Role Models</a></li>
+                         <li><a href="#connect" class="smoothScroll">Contact</a></li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                         <li><a href="https://www.facebook.com/profile.php?id=100011935152573&ref=bookmarks"><i class="fab fa-facebook-square"></i></a></li>
+                         <li><a href="https://twitter.com/the_Autosaida"><i class="fab fa-twitter"></i></a></li>
+                         <li><a href="https://www.instagram.com/null_brains/"><i class="fab fa-instagram"></i></a></li>
+
+                    </ul>
+
+               </div>
+
+          </div>
+     </section>
+
+
+     <!-- HOME -->
+     <section id="home" data-stellar-background-ratio="0.5">
+          <div class="overlay"></div>
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-6 col-sm-12">
+                         <div class="home-info">
+                              <h1>Hey there ,Welcome to my Blogsite !</h1>
+
+                              <small>What do you think ?  </small>
+                              <span>
+                                   <button type="button" class="btn btn-outline-primary"  onclick="location.href='mailto:genospk@gmail.com'" >Any Thoughts ?</button>
+                              </span>
+                         </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-12">
+                         <div class="home-video">
+                              <div class="embed-responsive embed-responsive-16by9">
+                                   <img src="https://wallpaperaccess.com/full/674004.jpg" class="img-responsive">
+                              </div>
+                         </div>
+                    </div>
+
+               </div>
+          </div>
+     </section>
+
+<!-- ABOUT -->
+<section id="about" data-stellar-background-ratio="0.5">
+    <div class="container">
+         <div class="row">
+
+              <div class="col-md-5 col-sm-6">
+                   <div class="about-info">
+                        <div class="section-title">
+                             <h2>Introduction</h2>
+                             <span class="line-bar">...</span>
+                        </div>
+                        <p>Hello i'm prem </p>
+                        <p>life-long learner , futurist and a student of life.</p>
+                   </div>
+                    <button type="button" onclick="location.href='https://drive.google.com/file/d/1RxXjCY7OanKEAC4DuG9nzrFc_SXxKsVM/view?usp=sharing'" class="btn btn-primary btn-lg"><i class="far fa-file"></i> Resume</button>
+                   <button type="button" onclick="location.href='https://github.com/TheWrongCoder'" class="btn btn-primary btn-lg"><i class="fab fa-github"></i> Github</button>
+              </div>
+
+              <div class="col-md-4 col-sm-12">
+                   <div class="about-image">
+                        <img src="/media/images/prem_logo.png" height="200px" width="200px" class="img-responsive" alt="">
+                   </div>
+              </div>
+
+         </div>
+    </div>
+</section>
+
+
+<section id="blog" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+
+                    <div class="col-md-12 col-sm-12">
+                         <div class="section-title">
+                              <h2>Blog</h2>
+                              <span class="line-bar">_ _ _</span>
+                         </div>
+                    </div>
+                     {% for post in post_list %}
+
+    <div class="col-md-12 col-sm-12">
+      <div class="card">
+        <div class="card-image">
+          <img src="{{ post.image.url }}">
+          <span class="card-title">{{ post.title }}</span>
+        </div>
+        <div class="card-content">
+           <small><i class="far fa-clock"></i>{{ post.author }} | {{ post.created_on}}</small>
+          <p>{{post.content|slice:":150" }}</p>
+        </div>
+        <div >
+        <a class="waves-effect waves-light btn-large" href="{% url 'blog-detail' post.slug  %}">Read article</a>
+        </div>
+      </div>
+    </div>
+
+          {% endfor %}
+                  </div>
+
+
+       </div>
+  </section>
+
+
+  <section id="work" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-12 col-sm-12">
+                         <div class="section-title">
+                              <h2>Role Models</h2>
+                              <span class="line-bar">...</span>
+                         </div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-12">
+                         <!-- WORK THUMB -->
+                         <div class="work-thumb">
+                              <a href="https://wallpapercave.com/wp/wp2048455.jpg" class="image-popup">
+                                   <img src="https://wallpapercave.com/wp/wp2048455.jpg" class="img-responsive" alt="Work">
+
+                                   <div class="work-info">
+                                        <h3>Elon Musk</h3>
+                                        <!-- <small>Product Design</small> -->
+                                   </div>
+                              </a>
+                         </div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-12">
+                         <!-- WORK THUMB -->
+                         <div class="work-thumb">
+                              <a href="https://www.ajabgjab.com/wp-content/uploads/2019/10/A.-P.-J.-Abdul-Kalam-Hd-Pictures.jpg" class="image-popup">
+                                <img src="https://www.ajabgjab.com/wp-content/uploads/2019/10/A.-P.-J.-Abdul-Kalam-Hd-Pictures.jpg" class="img-responsive" alt="Work">
+
+                                   <div class="work-info">
+                                        <h3>A. P. J. Abdul Kalam</h3>
+                                        <!-- <small>Branding</small> -->
+                                   </div>
+                              </a>
+                         </div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-12">
+                         <!-- WORK THUMB -->
+                         <div class="work-thumb">
+                              <a href="https://wallpapercave.com/wp/wp2209967.jpg" class="image-popup">
+                                   <img src="https://wallpapercave.com/wp/wp2209967.jpg" class="img-responsive" alt="Work">
+
+                                   <div class="work-info">
+                                        <h3>Richard Branson</h3>
+                                        <!-- <small>Photography</small> -->
+                                   </div>
+                              </a>
+                         </div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-12">
+                         <!-- WORK THUMB -->
+                         <div class="work-thumb">
+                              <a href="https://wallpapercave.com/wp/wp1936404.jpg" class="image-popup">
+                                   <img src="https://wallpapercave.com/wp/wp1936404.jpg" class="img-responsive" alt="Work">
+
+                                   <div class="work-info">
+                                      <h3>Nikola Tesla</h3>
+                                        <!-- <small>Art, Design</small> -->
+                                   </div>
+                              </a>
+                         </div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-12">
+                         <!-- WORK THUMB -->
+                         <div class="work-thumb">
+                              <a href="https://wallpapercave.com/wp/wp4256615.jpg" class="image-popup">
+                                   <img src="https://wallpapercave.com/wp/wp4256615.jpg" class="img-responsive" alt="Work">
+
+                                   <div class="work-info">
+                                        <h3>Swami Vivekananda</h3>
+                                        <!-- <small>Product Design</small> -->
+                                   </div>
+                              </a>
+                         </div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-12">
+                         <!-- WORK THUMB -->
+                         <div class="work-thumb">
+                              <a href="https://wallpapercave.com/wp/DTiTISr.jpg" class="image-popup">
+                                   <img src="https://wallpapercave.com/wp/DTiTISr.jpg" class="img-responsive" alt="Work">
+
+                                   <div class="work-info">
+                                        <h3>Johnny Depp</h3>
+                                        <!-- <small>Product Design</small> -->
+                                   </div>
+                              </a>
+                         </div>
+                    </div>
+
+
+
+               </div>
+          </div>
+     </section>
+
+
+     <!-- CONTACT -->
+
+
+
+     <!-- FOOTER -->
+     <footer class="footer">
+       <div class="mt-5 pt-5 pb-5 footer">
+<div class="container">
+<div class="row">
+ <div class="col-lg-5 col-xs-12 about-company">
+<h2 style="color:#ffffff;">You're <img src="https://img.icons8.com/cotton/64/000000/like--v3.png"> Awesome </h2>
+   <p style="color:#ffffff;" >Thanks for checking out my blog .
+   </p>
+ </div>
+ <div class="col-lg-3 col-xs-12 " id="connect">
+   <h4 class="mt-lg-0 mt-sm-3" style="color:#ffffff;">Connect <img src="https://img.icons8.com/material-rounded/24/000000/connected.png"></h4>
+     <ul >
+
+      <div> <li><a href="https://www.linkedin.com/in/prem-kumar-2a174b130/"><i class="fab fa-linkedin"></i> Linkedin</a></li></div>
+       <div><li><a href="https://www.facebook.com/profile.php?id=100011935152573&ref=bookmarks"><i class="fab fa-facebook-square"></i> Facebook</a></li></div>
+       <div><li><a href="https://twitter.com/the_Autosaida"><i class="fab fa-twitter"></i></a> Twitter</li></div>
+       <div><li><a href="https://www.instagram.com/null_brains/"><i class="fab fa-instagram"></i> Instagram</a></li></div>
+     </ul>
+ </div>
+ <div  class="col-lg-4 col-xs-12 location">
+   <h4 class="mt-lg-0 mt-sm-4" style="color:#ffffff;">Location</h4>
+   <p style="color:#ffffff;">Milkyway ,Earth 217-95ER-99P</p>
+   <!-- <p style="color:#ffffff;" class="mb-0"><i class="fa fa-phone mr-3"></i>(541) 754-3010</p> -->
+   <p style="color:#ffffff;"><a href="mailto:genospk@gmail.com" >genospk@gmail.com</a></p>
+ </div>
+</div>
+<div class="row mt-5">
+ <div class="col copyright">
+   <p style="color:#ffffff;"><small class="text-white-50">© 2019. All Rights Reserved.</small></p>
+ </div>
+</div>
+</div>
+</div>
+     </footer>
+
+     <!-- MODAL -->
+     <section class="modal fade" id="modal-form" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+               <div class="modal-content modal-popup">
+
+                    <div class="modal-header">
+                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                         </button>
+                    </div>
+
+                    <div class="modal-body">
+                         <div class="container-fluid">
+                              <div class="row">
+
+                                   <div class="col-md-12 col-sm-12">
+                                        <div class="modal-title">
+                                             <h2>Hydro Co</h2>
+                                        </div>
+
+                                        <!-- NAV TABS -->
+                                        <ul class="nav nav-tabs" role="tablist">
+                                             <li class="active"><a href="#sign_up" aria-controls="sign_up" role="tab" data-toggle="tab">Create an account</a></li>
+                                             <li><a href="#sign_in" aria-controls="sign_in" role="tab" data-toggle="tab">Sign In</a></li>
+                                        </ul>
+
+                                        <!-- TAB PANES -->
+                                        <div class="tab-content">
+                                             <div role="tabpanel" class="tab-pane fade in active" id="sign_up">
+                                                  <form action="#" method="post">
+                                                       <input type="text" class="form-control" name="name" placeholder="Name" required>
+                                                       <input type="telephone" class="form-control" name="telephone" placeholder="Telephone" required>
+                                                       <input type="email" class="form-control" name="email" placeholder="Email" required>
+                                                       <input type="password" class="form-control" name="password" placeholder="Password" required>
+                                                       <input type="submit" class="form-control" name="submit" value="Submit Button">
+                                                  </form>
+                                             </div>
+
+                                             <div role="tabpanel" class="tab-pane fade in" id="sign_in">
+                                                  <form action="#" method="post">
+                                                       <input type="email" class="form-control" name="email" placeholder="Email" required>
+                                                       <input type="password" class="form-control" name="password" placeholder="Password" required>
+                                                       <input type="submit" class="form-control" name="submit" value="Submit Button">
+                                                       <a href="https://www.facebook.com/templatemo">Forgot your password?</a>
+                                                  </form>
+                                             </div>
+                                        </div>
+                                   </div>
+
+                              </div>
+                         </div>
+                    </div>
+
+               </div>
+          </div>
+     </section>
+
+     <!-- SCRIPTS -->
+     <script src="{% static 'js/jquery.js' %}"></script>
+     <script src="{% static 'js/bootstrap.min.js' %}"></script>
+     <script src="{% static 'js/jquery.stellar.min.js' %}"></script>
+     <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+     <script src="{% static 'js/smoothscroll.js' %}"></script>
+     <script src="{% static 'js/custom.js' %}"></script>
+
+</body>
+</html>
